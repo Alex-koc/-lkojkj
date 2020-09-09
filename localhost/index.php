@@ -14,6 +14,7 @@
                     <p><input type="text" name="phone" value="" placeholder="Телефон"></p>
                     <p><input type="password" name="password" value="" placeholder="Пароль"></p>
                     </p>
+                    <input type="checkbox" name="remember_me" checked="checked" /> Запомнить меня
                     <p class="submit"><input type="submit"  name="commit" value="Регистрация"></p>
                 </form>
                     <p>Вы зарегистрированы? <a href="index_log.php"> Нажмите сюда! </a> </p>

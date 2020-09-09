@@ -7,6 +7,7 @@ require_once 'mysql.php';
 
 $login=$_POST['login'];
 $password=$_POST['password'];
+$remember=$_POST["remember_me"];
 
 
 $stmt= $pdo->query('SELECT login, password FROM `users` WHERE login="'.$login.'"');

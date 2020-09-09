@@ -12,4 +12,4 @@ $password= md5($password);
 $stmt= $pdo->query('INSERT INTO `users` (`login`, `phone`, `password`) VALUES ("'.$login.'", 
                                                                                "'.$phone.'",
                                                                                "'.$password.'")');
-Echo('Запись создана!');
+header('Location: http://localhost/index_log.php');
