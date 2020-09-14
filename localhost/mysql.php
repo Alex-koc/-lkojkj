@@ -1,2 +1,2 @@
 <?php
-$pdo = new PDO('mysql:host=localhost;dbname=data_users', 'root', '');
+$pdo = new PDO('mysql:host=localhost;dbname=magazin', 'root', '');
